@@ -15,7 +15,7 @@
 
 class Counter():
 
-    def start_from(self, start: int):
+    def start_from(self, start: int = 0):
         self.cnt = start
 
     def increment(self):
@@ -26,3 +26,12 @@ class Counter():
 
     def reset(self):
         self.cnt = 0
+
+
+c2 = Counter()
+c2.start_from()
+c2.display()  # печатает 0
+c2.increment()
+c2.display()  # печатает 1
+c2.increment()
+c2.display()  # печатает 2
