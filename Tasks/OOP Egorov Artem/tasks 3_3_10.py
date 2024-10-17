@@ -29,7 +29,6 @@ class Person():
     def display_person_info(self):
         print(f'Person: {self.name}, {self.age}')
 
-
 class Company():
 
     def __init__(self, company_name, location):
@@ -38,7 +37,6 @@ class Company():
 
     def display_company_info(self):
         print(f'Company: {self.company_name}, {self.location}')
-
 
 class Employee():
 

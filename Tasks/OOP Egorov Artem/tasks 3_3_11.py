@@ -39,7 +39,6 @@ class Task():
     def display(self):
         print(f'{self.name} {"(Сделана)" if self.status else "(Не сделана)"}')
 
-
 class TaskList():
 
     def __init__(self):
@@ -50,7 +49,6 @@ class TaskList():
 
     def remove_task(self, task):
         self.tasks.remove(task)
-
 
 class TaskManager():
 
