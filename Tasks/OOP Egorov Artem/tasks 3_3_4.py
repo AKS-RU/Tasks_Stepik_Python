@@ -7,7 +7,7 @@
 # метод speak принимающий один аргумент, который возвращает строку вида «{name} says {sound}».
 
 
-class Dog():
+class Dog:
 
     def __init__(self, name, age):
         self.name = name

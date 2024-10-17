@@ -11,7 +11,7 @@
 # Треугольник называется равнобедренным, если у него две стороны равны
 
 
-class Triangle():
+class Triangle:
 
     def __init__(self, a, b, c):
         self.a = a

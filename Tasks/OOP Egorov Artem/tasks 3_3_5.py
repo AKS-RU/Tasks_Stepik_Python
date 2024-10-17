@@ -7,7 +7,7 @@
 # метод perimeter , который возвращает периметр прямоугольника
 
 
-class Rectangle():
+class Rectangle:
     def __init__(self, width, height):
         self.width = width
         self.height = height

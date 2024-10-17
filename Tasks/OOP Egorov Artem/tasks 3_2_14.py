@@ -21,7 +21,7 @@
 # Kunis Mila - голы: 0, передачи: 1
 
 
-class SoccerPlayer():
+class SoccerPlayer:
     def __init__(self, name, surname):
         self.name = name
         self.surname = surname

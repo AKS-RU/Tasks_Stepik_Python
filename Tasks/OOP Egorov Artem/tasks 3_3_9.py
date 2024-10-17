@@ -9,7 +9,7 @@
 # указанными именами. Если такой атрибут уже присутствовал в экземпляре,  метод изменяет его значение на новое.
 
 
-class CustomLabel():
+class CustomLabel:
 
     def __init__(self, text, **kwargs):
         self.text = text

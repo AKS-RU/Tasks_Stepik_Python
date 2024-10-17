@@ -48,7 +48,7 @@
 # See u later alligator
 
 
-class Robot():
+class Robot:
 
     def say_hello(self):
         if hasattr(self, 'name'):

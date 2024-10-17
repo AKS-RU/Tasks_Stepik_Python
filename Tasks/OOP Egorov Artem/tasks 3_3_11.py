@@ -29,7 +29,7 @@
 # метод  show_tasks - вызывает метод display(метод класса Task) для каждой хранящейся задачи в списке задач.
 
 
-class Task():
+class Task:
 
     def __init__(self, name, description, status=False):
         self.name = name
@@ -39,7 +39,8 @@ class Task():
     def display(self):
         print(f'{self.name} {"(Сделана)" if self.status else "(Не сделана)"}')
 
-class TaskList():
+
+class TaskList:
 
     def __init__(self):
         self.tasks = []
@@ -50,7 +51,8 @@ class TaskList():
     def remove_task(self, task):
         self.tasks.remove(task)
 
-class TaskManager():
+
+class TaskManager:
 
     def __init__(self, task_list):
         self.task_list = task_list

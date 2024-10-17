@@ -46,7 +46,7 @@
 from typing import Any
 
 
-class Constructor():
+class Constructor:
 
     def add_atribute(self, name_attr: str, value: Any):
         setattr(self, name_attr, value)

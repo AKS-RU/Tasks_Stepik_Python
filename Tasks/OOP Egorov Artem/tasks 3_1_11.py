@@ -13,7 +13,7 @@
 # Необходимо написать только определение класса Counter
 
 
-class Counter():
+class Counter:
 
     def start_from(self, start: int = 0):
         self.cnt = start

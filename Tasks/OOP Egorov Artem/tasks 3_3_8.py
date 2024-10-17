@@ -15,7 +15,7 @@
 # В этом же порядке для каждого объекта в списке worker_objects вызовите метод get_info
 
 
-class Worker():
+class Worker:
 
     def __init__(self, name, salary, gender, passport):
         self.name = name

@@ -21,7 +21,7 @@
 # классов Person и Company
 
 
-class Person():
+class Person:
     def __init__(self, name, age):
         self.name = name
         self.age = age
@@ -29,7 +29,8 @@ class Person():
     def display_person_info(self):
         print(f'Person: {self.name}, {self.age}')
 
-class Company():
+
+class Company:
 
     def __init__(self, company_name, location):
         self.company_name = company_name
@@ -38,7 +39,8 @@ class Company():
     def display_company_info(self):
         print(f'Company: {self.company_name}, {self.location}')
 
-class Employee():
+
+class Employee:
 
     def __init__(self, name, age, company_name, location):
         self.personal_data = Person(name, age)

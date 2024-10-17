@@ -12,7 +12,7 @@
 # метод get_zeroes,  который возвращает список всех нулевых значений из коллекции экземпляра.
 
 
-class Numbers():
+class Numbers:
     def __init__(self, *args):
         self.lst = list(args)
 

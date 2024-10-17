@@ -28,7 +28,7 @@
 from math import sqrt
 
 
-class Point():
+class Point:
 
     def set_coordinates(self, x: int | float, y: int | float):
         self.x = x

@@ -10,7 +10,7 @@
 # И то же самое сделайте с переменной r2d2:  вызовите метод say_hello , потом — метод say_bye
 
 
-class Robot():
+class Robot:
 
     def say_hello(self):
         print('Hello, human! My name is C-3PO')

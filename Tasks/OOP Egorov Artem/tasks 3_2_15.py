@@ -4,7 +4,7 @@
 # Также реализуйте метод run_away, который печатает фразу «Oh, Sugar Honey Ice Tea».
 
 
-class Zebra():
+class Zebra:
 
     def __init__(self):
         self.count = 1

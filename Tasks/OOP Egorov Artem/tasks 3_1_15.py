@@ -15,7 +15,7 @@
 # Good
 
 
-class Laptop():
+class Laptop:
 
     def __init__(self, brand='', model='', price=0):
         self.brand = brand
