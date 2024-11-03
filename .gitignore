@@ -1,4 +1,5 @@
-# Byte-compiled / optimized / DLL files
+# Task\Byte-compiled / optimized / DLL files
+Task\OOP_EgorovA\test.py
 __pycache__/
 *.py[cod]
 *$py.class
@@ -162,3 +163,5 @@ cython_debug/
 #.idea/
 examples/triangle Pascal.py
 Tasks/.vscode/settings.json
+Tasks/OOP_EgorovA/test.py
+Tasks/OOP_EgorovA/test.py
