@@ -22,8 +22,7 @@ def get_user(username):
     #  напишите реализацию функции
     if username in users:
         return users[username].get('name')
-    else:
-        raise UserNotFoundError
+    raise UserNotFoundError
 
 
 try:
