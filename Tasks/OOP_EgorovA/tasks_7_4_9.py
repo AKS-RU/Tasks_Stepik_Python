@@ -33,11 +33,27 @@ class Library:
         self.books.append(book)
 
     def __iter__(self):
-        return LibraryIterator(...)  # тут определите, что будете передавать итератору
+        return LibraryIterator(self.books)  # тут определите, что будете передавать итератору
 
 
 class LibraryIterator:
-    pass
+
+    def __init__(self, books):
+        lst = []
+        for i in books:
+            lst += i.pages
+        self.lst = lst
+        self.index = -1
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        self.index += 1
+        try:
+            return self.lst[self.index]
+        except IndexError:
+            raise StopIteration
 
 
 # Пример использования
@@ -45,10 +61,14 @@ book1 = Book("Book 1", ["Page 1", "Page 2", "Page 3", "Page 4"])
 book2 = Book("Book 2", ["Page A", "Page B", "Page C"])
 book3 = Book("Book 3", ["Chapter 1", "Chapter 2"])
 
+# print(book1.pages)
+
 library = Library()
 library.add_book(book1)
 library.add_book(book2)
 library.add_book(book3)
+
+# print(library.books)
 
 # Используем вложенный итератор для обхода страниц в библиотеке
 for page in library:
