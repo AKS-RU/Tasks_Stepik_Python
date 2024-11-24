@@ -162,4 +162,5 @@ cython_debug/
 #.idea/
 examples/triangle Pascal.py
 Tasks/.vscode/settings.json
-Tasks/OOP_EgorovA/test.py
+Tasks/advanced_python_egorov/test.py
+
